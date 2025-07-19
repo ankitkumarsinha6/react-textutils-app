@@ -2,6 +2,7 @@
 
 ![TextUtils Homepage Screenshot](images/Screenshot Light Mode.png)
 
+
 *(Replace this with an actual screenshot of your TextUtils homepage in light mode)*
 
 ## Overview
