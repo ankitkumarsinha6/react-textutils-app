@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+# TextUtils - React Text Utility Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![TextUtils Homepage Screenshot](images/Screenshot Light Mode.png)
 
-## Available Scripts
+*(Replace this with an actual screenshot of your TextUtils homepage in light mode)*
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+TextUtils is a versatile and user-friendly web application built with React.js that allows you to perform various operations on your text quickly and efficiently. Whether you need to count words, characters, convert text case, or remove unwanted spaces, TextUtils has you covered.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* **Word Counter:** Get an instant count of words in your text.
+* **Character Counter:** See the total number of characters (including spaces).
+* **Case Conversion:**
+    * Convert text to `UPPERCASE`.
+    * Convert text to `lowercase`.
+* **Clear Text:** Easily clear all text from the input area.
+* **Copy Text:** Copy the manipulated text to your clipboard with a single click.
+* **Remove Extra Spaces:** Clean up your text by removing redundant spaces.
+* **Reading Time Estimation:** Get an estimate of how long it would take to read your text.
+* **Live Preview:** See a real-time preview of your text as you type.
+* **Dark Mode Toggle:** Switch between light and dark themes for a comfortable viewing experience.
+* **Alert Notifications:** Receive instant feedback for actions performed (e.g., "Copied to Clipboard!", "Dark mode enabled").
+* **Responsive Design:** Optimized for various screen sizes (thanks to Bootstrap 5).
+* **About Page:** Learn more about the application and its functionalities.
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* **React.js:** Frontend JavaScript library for building user interfaces.
+* **React Router DOM:** For declarative routing within the application.
+* **Bootstrap 5:** CSS framework for responsive and modern UI components.
+* **JavaScript (ES6+)**
+* **HTML5**
+* **CSS3**
 
-### `npm run build`
+## Installation and Setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run this project locally, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/ankitkumarsinha6/react-textutils-app.git]
+    ```
+2.  **Navigate to the project directory:**
+    ```bash
+    cd react-textutils-app
+    ```
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    # OR
+    yarn install
+    ```
+4.  **Start the development server:**
+    ```bash
+    npm start
+    # OR
+    yarn start
+    ```
+    This will open the application in your default browser at `http://localhost:3000`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+1.  Type or paste your text into the main text area on the homepage.
+2.  Use the buttons below the text area to perform various text manipulations (e.g., "Convert to Uppercase", "Remove Extra Spaces").
+3.  Observe the word count, character count, and reading time in the summary section.
+4.  Use the toggle switch in the Navbar to switch between Light and Dark modes.
+5.  Navigate to the "About Us" page using the Navbar link to learn more.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![TextUtils Dark Mode Screenshot](images/Screenshot Dark Mode.png)
+*(Replace this with an actual screenshot of your TextUtils in dark mode)*
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Project Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+react-textutils-app/
+├── public/                 # Static assets (index.html, favicon, manifest)
+├── src/
+│   ├── components/         # Reusable React components
+│   │   ├── About.js
+│   │   ├── Alert.js
+│   │   ├── Navbar.js
+│   │   └── Textform.js
+│   ├── App.css             # Global CSS for App component
+│   ├── App.js              # Main application component, handles routing and state
+│   ├── index.css           # Global CSS for the entire app
+│   ├── index.js            # React app entry point
+│   └── reportWebVitals.js  # Web Vitals reporting
+├── .gitignore              # Specifies intentionally untracked files to ignore
+├── package.json            # Project metadata and dependencies
+├── README.md               # This file
+└── yarn.lock               # (or package-lock.json) Dependency lock file
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Feel free to fork this repository, make improvements, and submit pull requests. Any contributions are welcome!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
 
-### Code Splitting
+This project is open source and available under the [MIT License](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
