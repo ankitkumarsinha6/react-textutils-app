@@ -3,8 +3,6 @@
 ![TextUtils Homepage Screenshot](images/Screenshot Light Mode.png)
 
 
-*(Replace this with an actual screenshot of your TextUtils homepage in light mode)*
-
 ## Overview
 
 TextUtils is a versatile and user-friendly web application built with React.js that allows you to perform various operations on your text quickly and efficiently. Whether you need to count words, characters, convert text case, or remove unwanted spaces, TextUtils has you covered.
