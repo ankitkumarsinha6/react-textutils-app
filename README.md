@@ -1,6 +1,6 @@
 # TextUtils - React Text Utility Application
 
-![TextUtils Homepage Screenshot](images/Screenshot Light Mode.png)
+![TextUtils Homepage Screenshot](images/ScreenshotLightMode.png)
 
 
 ## Overview
